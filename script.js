@@ -115,5 +115,17 @@ class binarySearch{
     
 }
 
+var bst = new binarySearch();
+bst.insert(15)
+bst.insert(25)
+bst.insert(35)
+bst.insert(45)
+bst.insert(55)
+bst.insert(65)
+bst.insert(75)
+bst.insert(85)
+bst.insert(95)
+bst.insert(5)
 
+bst.preeorder(bst.getRootNode());
 
